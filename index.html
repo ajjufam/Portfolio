@@ -1,0 +1,563 @@
+<!--This website was built and designed by Prajwal A U
+	Version: 2.3.4
+	Last Modified on 2/20/24
+
+	Note: All versions have been inspired by various other porfolio websites that can be found in the references.txt file.
+		Thank you to all the people who helped this portfolio come to existence!
+-->
+
+<!DOCTYPE html>
+<html lang="en" style="background: #101e3d">
+  <!-- Style prevents entire screen white flicker on first load -->
+  <head>
+    <title>Prajwal A U</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta name="title" content="Joseph's Personal Website" />
+    <meta name="author" content="Prajwal A U" />
+    <meta
+      name="description"
+      content="Joseph's Personal Website. Come stay a while and listen!"
+    />
+    <meta name="image" content="images/preview-image.PNG" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div id="loader" class="loader"><p id="loader-content">Loading</p></div>
+    <!-- Wrapper -->
+    <div id="application">
+      <div id="overlay">
+        <ul id="overlay-link-list">
+          <li class="overlay-link">
+            <a href="https://github.com/ajjufam" target="_blank"
+              ><div class="link link-github"></div
+            ></a>
+          </li>
+          <li class="overlay-link">
+            <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" target="_blank"
+              ><div class="link link-itchio"></div
+            ></a>
+          </li>
+          <li class="overlay-link">
+            <a
+              href="https://www.linkedin.com/in/prajwal-a-u-172aa4340/"
+              target="_blank"
+              ><div class="link link-linkedin"></div
+            ></a>
+          </li>
+          <li class="overlay-link">
+            <a href="mailto:au.ajju7@outlook.com" target="_blank"
+              ><div class="link link-email"></div
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div id="wrapper">
+        <!-- Navigation -->
+        <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand scrolly mr-auto" href="#">Home</a>
+            <div class="nav-links">
+              <a class="nav-link scrolly" href="#about">About</a>
+              <a class="nav-link scrolly" href="#experience">Experience</a>
+              <a class="nav-link scrolly" href="#projects">Work</a>
+              <a class="nav-link scrolly" href="#skills">Skills</a>
+              <a class="nav-link scrolly" href="#contact">Contact</a>
+              <a
+                class="btn button primary"
+                id="navbar-resume"
+                href="assets/Resume-Prajwal.pdf"
+                target="_blank"
+                >Resume</a
+              >
+            </div>
+          </div>
+        </nav>
+
+        <!-- Intro -->
+        <section id="intro" class="intro">
+          <div>
+            <h1>Hello, my name is</h1>
+            <h2>Prajwal A U</h2>
+            <h3>Software Developer</h3>
+            <p>
+              As a backend developer with over 2 years of experience, I
+              specialize in building efficient APIs and backend systems using
+              Node.js and NestJS. My passion lies in creating reliable solutions
+              for authentication, authorization, and database integration. I
+              continuously seek to optimize performance and scalability in every
+              project I undertake.
+            </p>
+            <a
+              class="btn button primary"
+              href="https://github.com/ajjufam"
+              target="_blank"
+              >Visit my GitHub!</a
+            >
+          </div>
+        </section>
+        <section id="about">
+          <div class="header">
+            <h1>About</h1>
+            <hr />
+          </div>
+          <div id="about-content" class="about-content">
+            <div>
+              <img src="images/about-image.png" alt="Portrait" />
+              <div id="about-headers">
+                <h1>Prajwal A U</h1>
+                <h2>Software Developer</h2>
+                <h3>
+                  <a
+                    class="text-link"
+                    href="https://github.com/ajjufam"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </h3>
+              </div>
+            </div>
+            <div id="about-description" class="col-10">
+              <p>
+                Hello, my name is Prajwal! I enjoy building backend systems that
+                make a real impact on people's lives. My journey into software
+                development began during my degree, where I created a University
+                Management System using HTML, CSS, JavaScript, PHP, and MySQL.
+                That project strengthened my understanding of web development,
+                system design, and database management, eventually leading me to
+                specialize in backend technologies like Node.js and NestJS.
+              </p>
+              <p>Since then,</p>
+              <p>
+                During my college days, I had the opportunity to complete an
+                internship course at UTL Technologies. After that, I joined the
+                company as a Node.js backend developer, which marked the
+                beginning of my journey into professional software development.
+                This experience laid a strong foundation for my skills and
+                passion for building scalable backend systems.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience">
+          <div class="header">
+            <h1>Experience</h1>
+            <hr />
+          </div>
+          <div id="experience-content" class="experience-content">
+            <div class="experience-item">
+              <div>
+                12/2024 - Current
+                <a href="https://ssuraksha.com/" target="_blank"
+                  ><img src="images/exp/bnet.png" alt="bnet-logo"
+                /></a>
+              </div>
+              <div class="experience-item-content">
+                <a
+                  class="text-link"
+                  href="https://ssuraksha.com/"
+                  target="_blank"
+                >
+                  Bnet Global Solutions
+                  <img src="images/link-icons/link-arrow.png" alt="link-icon" />
+                </a>
+                <ul class="experience-item-content-description">
+                  <li>
+                    Gained hands-on experience with data documentation, creating
+                    sequential diagrams, and using tools like AWS Kubernetes and
+                    Docker.
+                  </li>
+                  <li>
+                    Worked with email systems, integrating Microsoft MSAL for
+                    authentication and AWS SES for sending and receiving emails.
+                  </li>
+                  <li>
+                    Acquired in-depth knowledge of how the insurance industry
+                    operates, which enriched my technical and domain expertise.
+                  </li>
+                </ul>
+                <ul class="experience-item-content-skills">
+                  <li>Jira</li>
+                  <li>Microsoft Teams</li>
+                  <li>Documentation</li>
+                  <li>Communication</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="experience-item">
+              <div>
+                05/2022 - 07/2024
+                <a href="https://www.utltraining.com/" target="_blank"
+                  ><img
+                    style="width: 50%"
+                    src="images/exp/utl-logo.png"
+                    alt="utl-logo"
+                /></a>
+              </div>
+              <div class="experience-item-content">
+                <a
+                  class="text-link"
+                  href="https://www.utltraining.com/"
+                  target="_blank"
+                >
+                  UTL Technologies PVT LTD
+                  <img src="images/link-icons/link-arrow.png" alt="link-icon" />
+                </a>
+                <ul class="experience-item-content-description">
+                  <li>
+                    UTL Technologies was the first
+                    company I joined as a developer. It provided me with the
+                    foundation to grow both technically and professionally.
+                  </li>
+                  <li>
+                    I learned how to
+                    effectively handle pressure in a fast-paced environment,
+                    while also understanding the importance of communication and
+                    collaboration with seniors.
+                  </li>
+                  <li>
+                    I gained experience training new
+                    joinees, helping them integrate into the team, and sharing
+                    knowledge to support their development.
+                  </li>
+                </ul>
+                <ul class="experience-item-content-skills">
+                  <li>Java</li>
+                  <li>JavaScript</li>
+                  <li>Node JS</li>
+                  <li>Mongo DB</li>
+                  <li>Git</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <!-- <section id="projects">
+          <div class="header">
+            <h1>Projects</h1>
+            <hr />
+          </div>
+          <div id="projects-content" class="projects-content">
+            <div class="projects-content-featured">
+              <div>
+                <div class="projects-content-featured-image-overlay">
+                  <a
+                    href="https://dl.acm.org/doi/10.1007/978-3-642-02247-0_35"
+                    target="_blank"
+                    ><img src="images/works/Drones.gif" alt="work"
+                  /></a>
+                </div>
+              </div>
+              <div class="projects-content-featured-description">
+                <h1>Featured Project</h1>
+                <a
+                  class="header-link"
+                  href="https://dl.acm.org/doi/10.1007/978-3-642-02247-0_35"
+                  ><h2>Capturing User Intent</h2></a
+                >
+                <p>
+                  Led a team of 3 engineers during the summer to develop,
+                  expand, and clean the codebase of a rule-based AI model and UI
+                  interface.
+                </p>
+                <div style="clear: both">
+                  <a
+                    href="https://dl.acm.org/doi/10.1007/978-3-642-02247-0_35"
+                    target="_blank"
+                    ><div class="link link-standard"></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="projects-content-featured">
+              <div class="projects-content-featured-description">
+                <h1>Featured Project</h1>
+                <a
+                  class="header-link"
+                  href="https://github.com/imbranch/BoatTracker"
+                  ><h2>Boat Tracker</h2></a
+                >
+                <p>
+                  Identified user requirements, created the project roadmap, and
+                  designed the website throughout all stages of development.
+                </p>
+                <div style="clear: both">
+                  <a
+                    href="https://github.com/imbranch/BoatTracker"
+                    target="_blank"
+                    ><div class="link link-github"></div
+                  ></a>
+                </div>
+              </div>
+              <div>
+                <div class="projects-content-featured-image-overlay">
+                  <a
+                    href="https://github.com/imbranch/BoatTracker"
+                    target="_blank"
+                    ><img src="images/works/Boat Tracker.gif" alt="work"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="projects-content-featured">
+              <div>
+                <div class="projects-content-featured-image-overlay">
+                  <a
+                    href="https://github.com/josephcyang4459/Duo-Darts"
+                    target="_blank"
+                    ><img src="images/works/Duo Darts.gif" alt="work"
+                  /></a>
+                </div>
+              </div>
+              <div class="projects-content-featured-description">
+                <h1>Featured Project</h1>
+                <a
+                  class="header-link"
+                  href="https://github.com/josephcyang4459/Duo-Darts"
+                  ><h2>Duo Darts</h2></a
+                >
+                <p>
+                  Instrumental in implementating game music, game sound effects
+                  and game UI/UX for positive user feedback and experience
+                </p>
+                <div style="clear: both">
+                  <a
+                    href="https://github.com/josephcyang4459/Duo-Darts"
+                    target="_blank"
+                    ><div class="link link-github"></div
+                  ></a>
+                  <a
+                    href="https://lipglossbpoppin.itch.io/darts-romance"
+                    target="_blank"
+                    ><div class="link link-itchio"></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <h2 class="projects-content-other-header">Other Projects</h2>
+            <ul class="projects-content-other">
+              <li class="projects-content-other-content">
+                <div class="projects-content-other-content-inner">
+                  <a
+                    class="projects-content-other-content-inner-hover"
+                    href="https://divinytea.itch.io/mini-putt"
+                    target="_blank"
+                    >MiniPutt</a
+                  >
+                  <div class="projects-content-other-content-description">
+                    Co-led the development and implementation of key concepts
+                    and UI/UX for a game inspired by mini-golf.
+                  </div>
+                  <div class="projects-content-other-content-inner-links">
+                    <a
+                      href="https://divinytea.itch.io/mini-putt"
+                      target="_blank"
+                      ><div class="link link-itchio"></div
+                    ></a>
+                    <a
+                      href="https://github.com/josephcyang4459/college-archives/tree/main/mini-putt"
+                      target="_blank"
+                      ><div class="link link-github"></div
+                    ></a>
+                    <a
+                      href="https://divinytea.itch.io/mini-putt"
+                      target="_blank"
+                      ><div class="link"></div
+                    ></a>
+                  </div>
+                </div>
+              </li>
+              <li class="projects-content-other-content">
+                <div class="projects-content-other-content-inner">
+                  <a class="projects-content-other-content-inner-hover"
+                    >ToS Card Game Revamped</a
+                  >
+                  <div class="projects-content-other-content-description">
+                    Redesigned the Town of Salem card game, remaining faithful
+                    to the original online game. Printed by
+                    <a
+                      class="text-link"
+                      style="position: relative; z-index: 1"
+                      href="https://www.makeplayingcards.com/"
+                      >Make Playing Cards</a
+                    >
+                    for personal use only.
+                  </div>
+                  <div class="projects-content-other-content-inner-links"></div>
+                </div>
+              </li>
+              <li class="projects-content-other-content">
+                <div class="projects-content-other-content-inner">
+                  <a class="projects-content-other-content-inner-hover" href="#"
+                    >Portfolio Website</a
+                  >
+                  <div class="projects-content-other-content-description">
+                    Version 2.0 of my portfolio website that was designed and
+                    developed in VS Code and hosted by GitHub pages.
+                  </div>
+                  <div class="projects-content-other-content-inner-links">
+                    <a
+                      href="https://github.com/josephcyang4459/josephcyang4459.github.io"
+                      target="_blank"
+                      ><div class="link link-github"></div
+                    ></a>
+                    <a href="#"><div class="link"></div></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section> -->
+
+        <!-- Skills -->
+        <section id="skills">
+          <div class="header">
+            <h1>Skills</h1>
+            <hr />
+          </div>
+          <div id="skills-content" class="skills-content">
+            <ul>
+              <li>
+                <a href="https://nodejs.org/docs/latest/api/" target="_blank"
+                  ><img src="images/skills/nodejs.png" alt="nodejs"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://docs.nestjs.com/"
+                  target="_blank"
+                  style="width: 50%"
+                  ><img src="images/skills/nestjs.png" alt="nestjs"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://git-scm.com/"
+                  target="_blank"
+                  style="width: 90%"
+                  ><img src="images/skills/git.png" alt="git"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                  target="_blank"
+                  style="width: 60%"
+                  ><img src="images/skills/html5.png" alt="html5"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.java.com/en/"
+                  target="_blank"
+                  style="width: 50%"
+                  ><img src="images/skills/java.png" alt="java"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  target="_blank"
+                  style="width: 75%"
+                  ><img src="images/skills/javascript.png" alt="javascript"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://aws.amazon.com/what-is/sql/"
+                  target="_blank"
+                  style="width: 80%"
+                  ><img src="images/skills/sql.png" alt="sql"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.mongodb.com/" target="_blank"
+                  ><img src="images/skills/mongo.png" alt="mongo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+          <div class="header">
+            <h1>Contact</h1>
+            <hr />
+          </div>
+          <p>
+            Whether you have a question or just want to say hello, I'd love to
+            hear from you! Fill out the contact form and send it! Or you can
+            directly email me at
+            <a class="text-link" href="mailto:au.ajju7@outlook.com"
+              >au.ajju7@outlook.com</a
+            >
+          </p>
+          <form
+            id="contact-form"
+            class="contact-form"
+            autocomplete="off"
+            action="https://api.web3forms.com/submit"
+            method="POST"
+          >
+            <input
+              id="email-access-key"
+              type="hidden"
+              name="access_key"
+              value="caae624d-d4ad-4a96-aa37-7002d734eae6"
+            />
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="contact-form-input"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              class="contact-form-input"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              class="contact-form-input"
+              required
+            ></textarea>
+            <button class="btn btn-default" type="submit">Submit</button>
+          </form>
+        </section>
+
+        <!-- Footer Credentials -->
+        <footer>Designed and built by Prajwal A U. © 2024</footer>
+      </div>
+    </div>
+  </body>
+</html>
